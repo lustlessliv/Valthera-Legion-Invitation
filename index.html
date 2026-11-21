@@ -29,7 +29,7 @@ body::before{content:"";position:fixed;top:-120px;left:50%;width:440px;height:44
 input{background:transparent;border:0;border-bottom:1px solid var(--gold);color:#e6d8b8;font:inherit;font-size:1.1rem;text-align:center;padding:8px 4px;width:min(260px,70vw);margin-bottom:34px}
 input::placeholder{color:#cdbb93;opacity:.55}
 input:focus-visible,button:focus-visible,a:focus-visible{outline:2px solid var(--goldl);outline-offset:4px}
-/* amplop dari PNG */
+/* envelope */
 .env{position:relative;width:min(380px,88vw);aspect-ratio:990/645;margin:0 auto;animation:float 5s ease-in-out infinite;perspective:900px;filter:drop-shadow(0 24px 30px rgba(0,0,0,.55))}
 .env img{position:absolute;left:0;width:100%;display:block;pointer-events:none;user-select:none}
 .l-back{top:0;z-index:0}.l-front{top:0;z-index:1}
@@ -41,7 +41,7 @@ input:focus-visible,button:focus-visible,a:focus-visible{outline:2px solid var(-
 .opening .seal{animation:fall .6s ease forwards}
 @keyframes fall{to{transform:translateY(40px) rotate(8deg);opacity:0}}
 @keyframes float{50%{transform:translateY(-8px)}}
-/* surat */
+/* paper */
 .letter{position:relative;max-width:560px;width:100%;margin:12px 0;padding:54px 40px 40px;text-align:center;color:var(--text);isolation:isolate;border-radius:3px;background:radial-gradient(ellipse at 50% 0,rgba(255,252,238,.5),transparent 60%),var(--paper) center/640px;box-shadow:inset 0 0 70px rgba(120,80,30,.3),0 30px 70px rgba(0,0,0,.6);transform-origin:top;animation:unfold .9s ease-out both}
 .letter::before{content:"";position:absolute;inset:12px;border:1.5px solid #bb9340;pointer-events:none}
 .letter::after{content:"";position:absolute;inset:17px;border:1px solid #d3b97f;pointer-events:none}
