@@ -177,7 +177,7 @@ h1{font:700 clamp(1.25rem,5.6vw,1.6rem)/1.2 'Cinzel',serif;letter-spacing:.07em;
     if(GUILD_URL)$('#go').href=GUILD_URL;
     $('#body').hidden=true;$('#oath').hidden=false;
   });
-  $('#go').addEventListener('click',function(ev){if(!GUILD_URL){ev.preventDefault();$('#note').textContent='Tautan guild belum dipasang.';$('#note').hidden=false}});
+  $('#go').addEventListener('click',function(ev){if(!GUILD_URL){ev.preventDefault();$('#note').textContent='Gerbang Arx Divina belum dibuka.';$('#note').hidden=false}});
   function replay(){location.reload()}
   $('#again').addEventListener('click',replay);
   $('#again2').addEventListener('click',replay);
